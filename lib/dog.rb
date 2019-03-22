@@ -9,9 +9,7 @@ def initialize(name)
 end
 
 def self.all
-  @@all.map do |dogs|
-    print dogs 
-  end
+  @@all
 end
   
 end
