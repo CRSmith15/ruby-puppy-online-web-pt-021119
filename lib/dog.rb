@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def self.all
-  @@all.each {|x| puts x}
+  puts @@all
 end
 
 def self.clear_all
