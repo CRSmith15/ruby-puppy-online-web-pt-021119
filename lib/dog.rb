@@ -11,5 +11,8 @@ end
 def self.all
   @@all.each {|x| puts x}
 end
+
+def self.clear_all
+  @@all.clear 
   
 end
